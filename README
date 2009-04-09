@@ -1,18 +1,14 @@
 Firefox deployment scripts
 
-Put these into the Firefox installer tree under
-
-Contents/MacOS/defaults
-
-* aa_kentfield_prefs.js contains default proxy settings and turns off some Firefox features
-* browserconfig.properties contains startup page information
+* kent/contents-macos/browserconfig.properties contains startup page information
+* kent/contents-macos/defaults/pref/aa_kentfield_prefs.js contains default proxy settings and turns off some Firefox features
 
 To use:
 
 1. Download latest Firefox installer .dmg file from Mozilla website
-2. Open .dmg and copy Firefox.app to desktop
-3. Copy browserconfig.properties to Contents/MacOS inside Firefox.app
-4. Copy aa_kentfield_prefs.js to Contents/MacOS/defaults/pref inside Firefox.app (may need to use Show Package Contents)
+2. Open .dmg and copy Firefox.app to desktop or other work location
+3. Copy browserconfig.properties to Contents/MacOS inside Firefox.app (may need to use Show Package Contents)
+4. Copy aa_kentfield_prefs.js to Contents/MacOS/defaults/pref inside Firefox.app
 
 Then copy Firefox.app to your Applications folder.
 
