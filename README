@@ -12,7 +12,7 @@ To use:
 1. Download latest Firefox installer .dmg file from Mozilla website
 2. Open .dmg and copy Firefox.app to desktop
 3. Copy browserconfig.properties to Contents/MacOS inside Firefox.app
-4. Copy aa_kentfield_prefs.js to Contents/MacOS/defaults inside Firefox.app (may need to use Show Package Contents)
+4. Copy aa_kentfield_prefs.js to Contents/MacOS/defaults/pref inside Firefox.app (may need to use Show Package Contents)
 
 Optional: 
 
