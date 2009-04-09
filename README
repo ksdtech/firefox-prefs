@@ -14,9 +14,18 @@ To use:
 3. Copy browserconfig.properties to Contents/MacOS inside Firefox.app
 4. Copy aa_kentfield_prefs.js to Contents/MacOS/defaults/pref inside Firefox.app (may need to use Show Package Contents)
 
-Optional: 
+Then copy Firefox.app to your Applications folder.
 
-Use InstallEase or PackageMaker to create an installer package that can be used with ARD.  
+Optional - Create Install Package: 
+
+Use PackageMaker (OS X 10.5 recommended) to create an installer package that can be used with ARD.  
+
+1. Create a "contents" folder inside the "packagemaker" folder
+2. Copy the modified Firefox.app to the contents folder
+3. sudo chmod -R root:staff Firefox.app
+4. Open the pmdoc project file in PackageMaker
+5. Build an .mpkg file for use with ARD.
+
 After deploying, don't forget to remove ALL per-user prefs that have been established: 
 
 ~/Library/Application Support/Firefox (all files in this folder)
