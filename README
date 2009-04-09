@@ -1,0 +1,8 @@
+Firefox deployment scripts
+
+Put these into the Firefox installer tree under
+
+Contents/MacOS/defaults
+
+* aa_kentfield_prefs.js contains default proxy settings and turns off some Firefox features
+* browserconfig.properties contains startup page information
