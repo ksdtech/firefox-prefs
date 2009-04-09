@@ -6,3 +6,19 @@ Contents/MacOS/defaults
 
 * aa_kentfield_prefs.js contains default proxy settings and turns off some Firefox features
 * browserconfig.properties contains startup page information
+
+To use:
+
+1. Download latest Firefox installer .dmg file from Mozilla website
+2. Open .dmg and copy Firefox.app to desktop
+3. Copy browserconfig.properties to Contents/MacOS inside Firefox.app
+4. Copy aa_kentfield_prefs.js to Contents/MacOS/defaults inside Firefox.app (may need to use Show Package Contents)
+
+Optional: 
+
+Use InstallEase or PackageMaker to create an installer package that can be used with ARD.  
+After deploying, don't forget to remove ALL per-user prefs that have been established: 
+
+~/Library/Application Support/Firefox (all files in this folder)
+~/Library/Preferences/org.mozilla.firefox.plist
+
