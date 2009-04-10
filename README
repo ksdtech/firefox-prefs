@@ -18,9 +18,11 @@ Use PackageMaker (OS X 10.5 recommended) to create an installer package that can
 
 1. Create a "contents" folder inside the "packagemaker" folder
 2. Copy the modified Firefox.app to the contents folder
-3. sudo chmod -R root:staff Firefox.app
+3. sudo chown -R root:staff Firefox.app
 4. Open the pmdoc project file in PackageMaker
 5. Build an .mpkg file for use with ARD.
+
+There is a shell script in the "kent" subfolder that will copy updated browserconfig.properties and aa_kentfield_prefs.js files and do the chown step, so you can just rebuild the PackageMaker project.
 
 After deploying, don't forget to remove ALL per-user prefs that have been established: 
 

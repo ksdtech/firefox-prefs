@@ -1,6 +1,7 @@
 pref("app.update.enabled", false);
 pref("browser.search.update", false);
 pref("browser.shell.checkDefaultBrowser", false);
+pref("browser.startup.homepage", "http://www.kentfieldschools.org/kent/library");
 pref("browser.startup.homepage_override.mstone", "rv:1.8.1.4");
 pref("extensions.update.enabled", false);
 pref("intl.charsetmenu.browser.cache", "ISO-8859-1");
